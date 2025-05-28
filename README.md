@@ -1,49 +1,49 @@
-# Leitor de Texto Acessível
+# Accessible Text Reader
 
-Um aplicativo Java que realiza a leitura em voz alta de arquivos de texto, desenvolvido como parte de uma atividade acadêmica sobre tecnologias inclusivas.
+A Java application that reads text files aloud, developed as part of an academic activity on inclusive technologies.
 
-## 📋 Sobre o Projeto
+## 📋 About the Project
 
-Este projeto foi desenvolvido como atividade alternativa para a disciplina de Programação de Computadores no curso de ADS do IFSP-Caraguatatuba, no contexto do evento institucional em comemoração ao Dia Mundial da Diversidade Cultural para o Diálogo e o Desenvolvimento (21 de maio de 2025).
+This project was developed as an alternative activity for the Computer Programming course in the ADS program at IFSP-Caraguatatuba, in the context of the institutional event celebrating the World Day for Cultural Diversity for Dialogue and Development (May 21, 2025).
 
-O tema central do evento foi "Conexões que Transformam: Diversidade Cultural e Inclusão Tecnológica" e inspirou a criação deste leitor de texto acessível, pensado como uma ferramenta para pessoas com deficiência visual.
+The central theme of the event was "Connections that Transform: Cultural Diversity and Technological Inclusion" and inspired the creation of this accessible text reader, designed as a tool for people with visual impairments.
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- Leitura automática em voz alta de qualquer arquivo de texto
-- Navegação linha por linha controlada pelo usuário
-- Três velocidades de leitura (Lenta, Normal, Rápida)
-- Interface simples e acessível
-- Controle intuitivo por atalhos de teclado
-- Feedback visual do progresso da leitura
+- Automatic reading aloud of any text file
+- Line-by-line navigation controlled by the user
+- Three reading speeds (Slow, Normal, Fast)
+- Simple and accessible interface
+- Intuitive control through keyboard shortcuts
+- Visual feedback of reading progress
 
-## 🔧 Requisitos
+## 🔧 Requirements
 
-- Windows (utiliza o sintetizador de voz nativo do sistema)
-- Java Runtime Environment (JRE) 8 ou superior
-- Saída de áudio funcional
+- Windows (uses the system's native voice synthesizer)
+- Java Runtime Environment (JRE) 8 or higher
+- Functional audio output
 
-## 💻 Como usar
+## 💻 How to Use
 
-1. Execute o programa
-2. Uma mensagem de boas-vindas será exibida e lida automaticamente
-3. Selecione qualquer arquivo de texto para leitura
-4. Escolha sua velocidade preferida (Lenta, Normal ou Rápida)
-5. Use a barra de espaço para avançar e ouvir cada linha
-6. Pressione ESC quando desejar encerrar a leitura
+1. Run the program
+2. A welcome message will be displayed and automatically read
+3. Select any text file for reading
+4. Choose your preferred speed (Slow, Normal, or Fast)
+5. Use the space bar to advance and hear each line
+6. Press ESC when you want to end the reading
 
-## ⌨️ Atalhos de teclado
+## ⌨️ Keyboard Shortcuts
 
-- **Barra de espaço**: Lê a linha atual e avança para a próxima
-- **ESC**: Encerra a leitura e fecha o programa
+- **Space bar**: Reads the current line and advances to the next
+- **ESC**: Ends the reading and closes the program
 
-## 🔍 Detalhes técnicos
+## 🔍 Technical Details
 
-O aplicativo foi construído com:
-- Java Swing para a interface gráfica
-- System.Speech do Windows (via PowerShell) para síntese de voz
-- Threads para permitir a leitura simultânea com a exibição dos diálogos
+The application was built with:
+- Java Swing for the graphical interface
+- Windows System.Speech (via PowerShell) for voice synthesis
+- Threads to allow simultaneous reading with dialog display
 
 ---
 
-Desenvolvido por Vitor de Oliveira, maio/2025.
+Developed by Vitor de Oliveira, May/2025.
